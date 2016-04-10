@@ -8,7 +8,7 @@ setup(
     author='Paul Baecher',
     author_email='pbaecher@gmail.com',
     url='https://github.com/pb-/i3history',
-    packages=find_packages('.'),
+    py_modules=['i3history'],
     license='MIT',
     install_requires=[
         'i3ipc >=1.2.0',
